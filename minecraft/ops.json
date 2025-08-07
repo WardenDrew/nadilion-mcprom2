@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "1bc9319d-e6e3-4155-80d0-151bec1a9c58",
+    "name": "Elderleastsum",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "b1a4e800-b131-4f6c-9c71-cdbfe4e01011",
+    "name": "WardenDrew",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "713a892a-11ca-4f8c-9ae2-11a0affe42c3",
+    "name": "DaFoxxKit",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  }
+]

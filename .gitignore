@@ -18,3 +18,4 @@
 /minecraft/fabric-server-*.jar
 /minecraft/usercache.json
 /minecraft/config/spark/tmp/
+/minecraft/mods/

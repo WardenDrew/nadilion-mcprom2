@@ -21,12 +21,16 @@ services:
       TYPE: "FABRIC"
       VERSION: "1.20.1"
       MEMORY: "16384M"
-      MOTD: "Nadilion Company: Prominence 2 Hasturian Era"
+      MOTD: |
+        §6====== §d§lNadilion Company§6 - §5Casual Modded §6======§r
+        §7    Pack: §cProminence 2§6 | §fWhitelist§6 | §n§1nadilion.com
       USE_MEOWICE_FLAGS: "true"
       DIFFICULTY: "2"
       SPAWN_PROTECTION: "0"
       MAX_WORLD_SIZE: "1000000"
       ALLOW_FLIGHT: "true"
+      BROADCAST_RCON_TO_OPS: "false"
+      ENABLE_COMMAND_BLOCK: "true"
       DISABLE_HEALTHCHECK: true
     volumes:
       - "./minecraft:/data"

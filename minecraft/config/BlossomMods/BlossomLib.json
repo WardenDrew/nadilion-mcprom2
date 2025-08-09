@@ -35,7 +35,7 @@
     },
     "actionBarMessageEnabled": false,
     "fovEffectBefore": {
-      "enabled": false,
+      "enabled": true,
       "values": [
         1.0,
         0.0,
@@ -47,7 +47,7 @@
       "stepCount": 10
     },
     "fovEffectAfter": {
-      "enabled": false,
+      "enabled": true,
       "values": [
         0.0,
         1.0,
@@ -60,7 +60,7 @@
     },
     "particleAnimation": "OFF",
     "allowBack": true,
-    "cancelOnMove": false
+    "cancelOnMove": true
   },
   "colors": {
     "base": "light_purple",

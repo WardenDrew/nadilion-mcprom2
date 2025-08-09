@@ -1,5 +1,60 @@
 {
-  "teleportation": null,
+  "teleportation": {
+    "bossBar": {
+      "enabled": true,
+      "color": "blue",
+      "textColor": "white"
+    },
+    "titleMessage": {
+      "enabled": true,
+      "titleCounting": {
+        "counterColor": "gold",
+        "color": "light_purple",
+        "modifiers": "b"
+      },
+      "subtitleCounting": {
+        "counterColor": "gold",
+        "color": "red",
+        "modifiers": "i"
+      },
+      "titleDone": {
+        "color": "green",
+        "modifiers": "b"
+      },
+      "subtitleDone": {
+        "color": "green",
+        "modifiers": "i"
+      }
+    },
+    "actionBarMessageEnabled": false,
+    "fovEffectBefore": {
+      "enabled": true,
+      "values": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "start": 1.0,
+      "end": 0.5,
+      "stepCount": 10
+    },
+    "fovEffectAfter": {
+      "enabled": true,
+      "values": [
+        0.0,
+        1.0,
+        0.0,
+        1.25
+      ],
+      "start": 0.5,
+      "end": 1.0,
+      "stepCount": 10
+    },
+    "particleAnimation": "OFF",
+    "allowBack": true,
+    "cancelOnMove": true
+  },
   "timeout": 60,
   "standStill": 3,
   "cooldown": 30

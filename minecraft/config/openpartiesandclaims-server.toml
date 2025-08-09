@@ -196,7 +196,7 @@
 			#Prefix "anything$" is the same as no prefix but allows interaction with any item held in the hand. Please make sure that no item does anything bad when used at a block with such an exception.
 			#Add the same block/tag multiple times to use multiple prefixes. Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:lever", "minecraft:*_button", "break$minecraft:*_button", "break$minecraft:(*_|)sand"]
-			forcedBlockProtectionExceptionList = ["minecraft:crafting_table", "fwaystones:blackstone_brick_waystone", "fwaystones:end_stone_brick_waystone", "fwaystones:red_nether_brick_waystone", "fwaystones:red_desert_waystone", "fwaystones:desert_waystone", "fwaystones:waystone", "fwaystones:stone_brick_waystone", "fwaystones:deepslate_brick_waystone", "fwaystones:nether_brick_waystone"]
+			forcedBlockProtectionExceptionList = ["minecraft:crafting_table", "anything$fwaystones:blackstone_brick_waystone", "fwaystones:end_stone_brick_waystone", "fwaystones:red_nether_brick_waystone", "fwaystones:red_desert_waystone", "fwaystones:desert_waystone", "fwaystones:waystone", "fwaystones:stone_brick_waystone", "fwaystones:deepslate_brick_waystone", "fwaystones:nether_brick_waystone", "lootr:lootr_chest", "lootr:lootr_trapped_chest", "lootr:lootr_shulker", "lootr:lootr_barrel", "lootr:lootr_inventory"]
 			#Entities that can bypass all block protection. Supports entity type tags.
 			#Prefixing an entity id/tag with "interact$" creates an exception which tries to exclude block breaking.
 			#Prefixing an entity id/tag with "break$" creates an exception that only includes block breaking.
@@ -206,7 +206,7 @@
 			#Projectile landing on blocks requires non-break block access through this option or blockAccessEntityGroups.
 			#Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:(v|p)illager", "minecraft:*illager", "#minecraft:raiders"]
-			entitiesAllowedToGrief = ["minecraft:sheep", "interact$minecraft:potion", "interact$minecraft:trident", "interact$minecraft:(*_|)arrow", "interact$minecraft:ender_pearl", "interact$minecraft:egg", "interact$minecraft:potion", "interact$minecraft:trident", "interact$minecraft:(*_|)arrow", "interact$minecraft:ender_pearl", "interact$minecraft:egg"]
+			entitiesAllowedToGrief = ["minecraft:sheep", "interact$minecraft:potion", "interact$minecraft:trident", "interact$minecraft:(*_|)arrow", "interact$minecraft:ender_pearl", "interact$minecraft:egg", "interact$minecraft:potion", "interact$minecraft:trident", "interact$minecraft:(*_|)arrow", "interact$minecraft:ender_pearl", "interact$minecraft:egg", "botania:mana_burst"]
 			#Custom groups of items that a player/claim config should be able to make protection exceptions for. Each group can consist of multiple items and item tags.
 			#Each group creates a player config option for the right-click use of the group items. The format for an item group is <group ID>{<items/tags/wildcards separated by ,>}.
 			#The group ID should consist of at most 32 characters that are letters A-Z, numbers 0-9 or the - and _ characters, e.g. "ePiC-stuff98{minecraft:(writable|written)_book, minecraft:*_book, #minecraft:compasses}".
@@ -236,7 +236,7 @@
 			#Prefix "anything$" is the same as no prefix but allows interaction with any item held in the hand. Please make sure that no item does anything bad when used at an entity with such an exception.
 			#Add the same entity/tag multiple times to use multiple prefixes. Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:villager", "break$minecraft:villager", "break$minecraft:(trader_|)llama"]
-			forcedEntityProtectionExceptionList = ["minecraft:minecart"]
+			forcedEntityProtectionExceptionList = ["minecraft:minecart", "botania:mana_burst"]
 			#Entities that are prevented from entering the claim. Supports entity type tags. An entity/tag ID in the list, e.g. "minecraft:falling_block" prevents the entities from entering.
 			#Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR. For example: "minecraft:zombie(_villager|)".
 			forcedEntityClaimBarrierList = ["minecraft:falling_block", "supplementaries:slingshot_projectile"]

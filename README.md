@@ -6,4 +6,4 @@ world folder is gitignored so save-specific server configs are not included (cur
 
 stats-tool is the influxdb metrics recorder for https://stats.nadilion.com/public-dashboards/8d43f335a3534007a3c394c9aed7bb9c
 
-rcon is not exposed publically, only internally on the host, so presence of rcon-password in server.properties does not pose an issue.
+rcon is not exposed publically, only internally on the host, so presence of rcon-password in server.properties does not pose an issue here. Password is cycled on every daily restart regardless and only updates here when config changes are saved.

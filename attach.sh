@@ -1,3 +1,6 @@
+#!/bin/bash
+cd "$(dirname "${BASH_SOURCE[0]}")"
+
 dialog --default-button "no" \
 	--no-label "Take me back" \
 	--yes-label "I will remember" \

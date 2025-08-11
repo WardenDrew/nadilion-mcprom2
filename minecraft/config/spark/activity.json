@@ -5,6 +5,32 @@
       "name": "WardenDrew",
       "uniqueId": "b1a4e800-b131-4f6c-9c71-cdbfe4e01011"
     },
+    "time": 1754865847454,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rg3Hov5UPx"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "WardenDrew",
+      "uniqueId": "b1a4e800-b131-4f6c-9c71-cdbfe4e01011"
+    },
+    "time": 1754722848854,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/onPXuuXq7L"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "WardenDrew",
+      "uniqueId": "b1a4e800-b131-4f6c-9c71-cdbfe4e01011"
+    },
     "time": 1754438139890,
     "type": "Heap dump summary",
     "data": {

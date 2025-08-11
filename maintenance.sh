@@ -1,5 +1,8 @@
 #!/bin/bash
-cd "$(dirname "${BASH_SOURCE[0]}")"
+
+# This script is run by CronTab automatically
+
+cd /srv/games/mc-prom2
 
 source ./stop.sh
 
@@ -10,4 +13,4 @@ rm -f minecraft/logs/*
 rm -f backups/backup-latest.7z
 mv backups/backup-inprogress.7z backups/backup-latest.7z
 
-source ./start.sh
+sudo shutdown -r now

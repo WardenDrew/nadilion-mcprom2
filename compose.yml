@@ -11,7 +11,7 @@ services:
     user: "1003:1003"
     image: itzg/minecraft-server:java17
     container_name: mc-prom2
-    restart: unless-stopped
+    restart: always
     tty: true
     stdin_open: true
     ports:

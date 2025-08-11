@@ -19,3 +19,10 @@
 /minecraft/usercache.json
 /minecraft/config/spark/tmp/
 /minecraft/mods/
+minecraft/config/spark/activity.json
+minecraft/.rcon-cli.env
+minecraft/.rcon-cli.yaml
+
+*.env
+/stats-tool/bin/
+/stats-tool/obj/
